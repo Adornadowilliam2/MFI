@@ -1,0 +1,22 @@
+* {
+  padding: 20px;
+}
+
+h1 {
+  background-color: aquamarine;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: black;
+  text-align: center;
+}
+
+div {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+
+  & + div {
+    margin-top: 20px;
+  }
+}
